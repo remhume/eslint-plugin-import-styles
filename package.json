@@ -1,18 +1,19 @@
 {
     "name": "eslint-plugin-import-style",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "ESLint plugin for import style correction",
     "main": "index.js",
     "scripts": {
-        "major-release":
-            "npm version major && npm publish && git push --follow-tags",
-        "minor-release":
-            "npm version minor && npm publish && git push --follow-tags",
-        "patch-release":
-            "npm version patch && npm publish && git push --follow-tags",
+        "major-release": "npm version major && npm publish && git push --follow-tags",
+        "minor-release": "npm version minor && npm publish && git push --follow-tags",
+        "patch-release": "npm version patch && npm publish && git push --follow-tags",
         "test": "mocha tests/**/*.js"
     },
-    "keywords": ["eslint", "eslint-plugin", "eslintplugin"],
+    "keywords": [
+        "eslint",
+        "eslint-plugin",
+        "eslintplugin"
+    ],
     "license": "MIT",
     "devDependencies": {
         "eslint": "3.8.1",
